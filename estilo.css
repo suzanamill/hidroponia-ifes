@@ -36,13 +36,23 @@ body {
 }
 
 .coluna-direita h1 {
-    margin-bottom: 25px;
+    margin: 25px;
+    text-align: center;
 }
 
 .coluna-direita {
     flex-grow: 4;
-
     background-color: var(--cor-coluna-direita);
+    padding: 50px;
+}
+
+.coluna-direita p{
+    margin: 10px;
+    text-align: justify;
+}
+
+.coluna-direita span{
+    font-weight: bolder;
 }
 
 .coluna-esquerda ul {
